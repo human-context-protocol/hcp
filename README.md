@@ -124,4 +124,4 @@ These examples help illustrate how the specification can be used.
 ---
 
 ## 🧩 HCP v0.1 Specification  
-The draft specification lives in:
+The draft specification lives in: /spec.md
