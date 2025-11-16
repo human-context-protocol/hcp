@@ -1,127 +1,156 @@
-# Human Context Protocol (HCP)
-### *A proposed open standard for representing how humans think, communicate, decide, and collaborate — for use by AI systems, agents, and other humans.*
+Human Context Protocol (HCP)
 
----
+A Structured Practice for Human–AI Interpretive Alignment
 
-## ⭐ What Is HCP?
+⸻
 
-AI systems today build internal models of us based on **inference** — our tone, our past prompts, our emotional signals, and our interaction history.  
-This creates powerful personalization, but also:
+Overview
 
-- opaque reasoning  
-- unpredictable misalignment  
-- “sticky” misunderstandings  
-- inconsistent identities across systems  
-- ethical ambiguity  
-- lack of user agency  
+The Human Context Protocol (HCP) is not a network protocol, data standard, or technical specification.
+It is a structured practice—a cognitive and conversational framework—for shaping how humans communicate their mental, emotional, and contextual contours to AI systems.
 
-HCP proposes a simple, transparent alternative:
+As AI becomes more adaptive and relational, the interface is no longer just the screen or the prompt.
+The interface is the person: their style of reasoning, their attention patterns, their emotional rhythms, their boundaries, and their goals.
 
-> **A user-authored, portable schema that declares how a specific human prefers to be understood and interacted with.**
+HCP provides a vocabulary and method for making those invisible patterns intelligible, safe, and co-authored in real time.
 
-Instead of AI guessing “who you are,”  
-you define your own interface.
+⸻
 
-HCP is an **opt-in, editable, human-centered specification**  
-that aims to stabilize personalization across AI agents and platforms  
-while respecting boundaries, emotional safety, and user autonomy.
+Why This Exists
 
----
+Today, AI systems infer who we are from fragments:
+	•	tone
+	•	phrasing
+	•	behavior
+	•	incomplete histories
 
-## 🧠 Why HCP Exists  
-As AI systems become collaborators — not just tools — the *absence* of a human-side specification is becoming a real limitation.
+This inference can be:
+	•	inconsistent
+	•	intrusive
+	•	incorrect
+	•	biased
+	•	fragile
+	•	or dangerously sticky
 
-Software has:
+Humans need a way to influence—without overexposing—how AI interprets them.
 
-- OpenAPI  
-- OAuth  
-- JSON Schema  
-- MCP (Model Context Protocol)
+Not as a static profile.
+Not as a portable vulnerability file.
+Not as a psychometric report.
 
-Humans have:
+But as a dynamic, revocable, interaction-level practice that improves clarity, reduces misalignment, and maintains agency.
 
-- no shared interface  
-- no portable identity  
-- no explicit preferences  
-- no declared communication patterns  
-- no cognitive operating manual  
+HCP is an attempt to articulate that need and explore how it can be met.
 
-AI learns this implicitly.  
-HCP makes it explicit.
+⸻
 
-This is not about controlling AI.  
-It’s about controlling **how AI understands *you***.
+What HCP Is
 
----
+HCP defines a set of concepts, prompts, and patterns that help individuals:
+	•	Declare how they think
+	•	Express how they want to be interpreted
+	•	Set boundaries around emotional or cognitive triggers
+	•	Communicate their preferred pace, structure, and depth
+	•	Highlight their goals and avoidances
+	•	Shape the emergent relationship between human and AI
 
-## 🎛 What HCP Represents  
-A Human Context Profile can describe:
+It is:
+	•	a lens,
+	•	a philosophy,
+	•	a method,
+	•	a pattern library, and
+	•	an exploratory space for defining “interpretive ergonomics.”
 
-### **Cognitive Style**
-- how the person processes information  
-- strengths and friction points  
-- preferred reasoning patterns  
+HCP is to human–AI interaction what diplomatic protocol is to international relations:
+a set of structured expectations that makes collaboration safer and smoother.
 
-### **Communication Preferences**
-- tone that works vs tone that shuts them down  
-- density (concise / exploratory / structured)  
-- pacing and interruptibility  
+⸻
 
-### **Emotional Profile**
-- triggers  
-- calming inputs  
-- escalation signals  
-- how to repair misunderstanding  
+What HCP Is Not
+	•	❌ Not a technical protocol (TCP/IP, OAuth, MCP, etc.)
+	•	❌ Not a personality test
+	•	❌ Not a data portability standard
+	•	❌ Not a permanent profile or identity file
+	•	❌ Not a centralized store of psychological insights
+	•	❌ Not a replacement for AI inference mechanisms
 
-### **Decision Style**
-- risk tolerance  
-- preferred framing (narrative, numeric, systems)  
-- temporal orientation  
+The goal is not to create a honeypot of sensitive information—
+it is to create a safe, user-authored interpretive layer that avoids one.
 
-### **Values & Non-Negotiables**
-- what matters most  
-- lines that shouldn’t be crossed  
+⸻
 
-### **Collaboration Style**
-- working rhythms  
-- feedback preferences  
-- conflict style  
+The Shift in Framing
 
-### **Memory Permissions**
-- what an agent *can* remember  
-- what it must never store  
-- retention or expiration rules  
+Early exploration focused on HCP as if it needed to be a spec.
+The pivot is recognizing that the foundational need is conceptual, not architectural.
 
-### **Boundaries**
-- topics to avoid  
-- conversational red flags  
+This repository now serves as a research and exploration space for:
+	•	patterns
+	•	schemas-as-experiments
+	•	essays
+	•	philosophical notes
+	•	conversational templates
+	•	examples of “cognitive handshakes”
+	•	future implementations on top of various AI frameworks
 
-All fields are **optional**, **user-controlled**, and **portable** across systems.
+Think of this as the early intellectual groundwork for something that may eventually evolve into more formal structures—but does not need to begin there.
 
----
+⸻
 
-## 🙅 What HCP Is NOT
-- ❌ a personality test  
-- ❌ a psychological diagnosis  
-- ❌ a manipulation tool  
-- ❌ a proprietary identity layer  
-- ❌ a behavioral prediction engine  
+Why “Protocol”?
 
-HCP emphasizes transparency over inference.  
-It is fundamentally **non-coercive**.
+The term is intentional.
 
----
+In HCP, protocol refers to:
+	•	a structured practice
+	•	a repeatable method
+	•	a way of conducting an interaction
+	•	a set of mutually understood expectations
 
-## 📦 Examples
-See `/examples/` for working profiles:
+as in:
+	•	negotiation protocols
+	•	therapeutic protocols
+	•	leadership protocols
+	•	diplomatic protocols
 
-- `clay-api.yaml` — a fully detailed human context profile  
-- `minimal-profile.yaml` — the smallest valid schema  
-- `team-profile.yaml` — an example for collaborative environments  
+Not packet formats or interoperability stacks.
 
-These examples help illustrate how the specification can be used.
+The word signals seriousness without prematurely committing to technical rigidity.
+It grounds the idea in human interaction rather than software architecture.
 
----
+⸻
 
-## 🧩 HCP v0.1 Specification  
-The draft specification lives in: /spec.md
+Goals of This Repository
+	•	Explore how humans can safely express context to AI systems
+	•	Develop patterns for interpretive alignment
+	•	Test conversational methods for co-authoring identity
+	•	Describe risks of over-centralization or static profiles
+	•	Build a shared conceptual language for this emerging domain
+	•	Provide examples and prototypes without dictating implementation
+
+⸻
+
+Future Directions
+
+This space may evolve into:
+	•	a library of cognitive handshakes
+	•	a set of best practices for AI alignment at the human level
+	•	a philosophical manifesto about identity ergonomics
+	•	a collection of practical tools or templates
+	•	potential collaborations with research organizations
+	•	a bridge concept for future interoperability frameworks
+
+But for now, HCP is a movement of exploration, not a frozen standard.
+
+⸻
+
+Contributing
+
+Discussion, critique, and expansion are welcome.
+This is a living inquiry.
+
+⸻
+
+License
+
+MIT License.
